@@ -196,7 +196,7 @@ const submit =(e: React.FormEvent<HTMLFormElement>)=>{
 
                                  tabIndex={6}>
                                 {processing && <LoaderCircle className="h-4 w-4 animate-spin" />}
-                                {processing ? (isEdit ? 'Updating ....' : 'Creating...') : isEdit ? 'Update' : 'Create'} Product
+                                {processing ? (isEdit ? 'Updating ....' : 'Creating...') : isEdit ? 'Update' : 'Create'} Product change
                                 </Button>
                              )}
 
